@@ -13,6 +13,11 @@ body, html {
     background-color: #f9f9f9;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
+    background-image: "nature.jpg";
+        background-image: url('nature.jpg'); /* Substitua 'seu-papel-de-parede.jpg' pelo caminho da imagem que deseja usar como papel de parede */
+        background-size: cover;
+        background-repeat: no-repeat;
+      
   }
   
   h1 {
@@ -37,7 +42,12 @@ body, html {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+    background-image: url('nature.jpg');
+    background-size: cover;
+        background-repeat: no-repeat;
+    
+
+}
   
   button[type="submit"] {
     display: block;
